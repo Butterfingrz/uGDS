@@ -202,6 +202,8 @@ uGDS originated from the motivation experiments in CoPilotIO. If you find uGDS u
 - Guanyi Chen — felixlinker02@gmail.com — [chengy-sysu.github.io](https://chengy-sysu.github.io)
 - Jian Zhang — jianz@hkust-gz.edu.cn — [sosp.dev](https://sosp.dev)
 
+Join the uGDS Slack workspace: 
+![uGDS/assets/slack.png](assets/slack.png) 
 ## License
 
 BSD 3-Clause License. See [LICENSE](LICENSE).
