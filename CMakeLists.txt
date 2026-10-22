@@ -38,7 +38,7 @@ set(UGDS_HIP_ARCHITECTURES "")
 if(UGDS_BACKEND_HIP)
     # Set HIP architectures before enable_language to avoid CMake auto-probing
     if(NOT CMAKE_HIP_ARCHITECTURES)
-        set(CMAKE_HIP_ARCHITECTURES "gfx90a;gfx942" CACHE STRING "HIP target architectures")  # MI250, MI300X
+        set(CMAKE_HIP_ARCHITECTURES "native" CACHE STRING "HIP target architectures")
     endif()
     find_package(hip REQUIRED)
     # Respect CMAKE_PREFIX_PATH for ROCm install location; fallback to /opt/rocm
