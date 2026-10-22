@@ -202,8 +202,10 @@ uGDS originated from the motivation experiments in CoPilotIO. If you find uGDS u
 - Guanyi Chen — felixlinker02@gmail.com — [chengy-sysu.github.io](https://chengy-sysu.github.io)
 - Jian Zhang — jianz@hkust-gz.edu.cn — [sosp.dev](https://sosp.dev)
 
-**Join the ScaleX-IO Slack workspace**
-![uGDS/assets/slack.png](assets/slack.png) 
+**[Join the ScaleX-IO Slack workspace](https://join.slack.com/t/scalex-io/shared_invite/zt-4dtq5uxn9-gefCZJOuXIgl_QGCITkUGw)**
+
+[![ScaleX-IO Slack QR code](assets/slack.png)](https://join.slack.com/t/scalex-io/shared_invite/zt-4dtq5uxn9-gefCZJOuXIgl_QGCITkUGw)
+
 ## License
 
 BSD 3-Clause License. See [LICENSE](LICENSE).
