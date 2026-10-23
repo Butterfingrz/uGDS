@@ -184,14 +184,14 @@ scripts/run_tests.sh all
 If you find uGDS useful in your research, please cite our technical report:
 
 ```bibtex
-@misc{wei2026ugds,
-  title         = {uGDS: A User-Space Development Kit for High-Performance GPU Direct Storage},
-  author        = {Jing Wei and Guanyi Chen and Qi Chen and Chuyu Zhang and Zheng Zhou and Chutian Wang and Jian Zhang},
-  year          = {2026},
-  eprint        = {2610.30868},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.DC},
-  url           = {https://arxiv.org/abs/2610.30868}
+@misc{wei2026ugdsuserspacedevelopmentkit,
+      title={uGDS: A User-Space Development Kit for High-Performance GPU Direct Storage}, 
+      author={Jing Wei and Guanyi Chen and Qi Chen and Chuyu Zhang and Zheng Zhou and Chutian Wang and Jian Zhang},
+      year={2026},
+      eprint={2610.30868},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC},
+      url={https://arxiv.org/abs/2610.30868}, 
 }
 ```
 
