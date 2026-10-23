@@ -21,6 +21,7 @@
 </p>
 
 ## News
+- **2026-10**: We released the uGDS technical report: [arXiv](https://arxiv.org/abs/2610.30868), [Zhihu (Chinese)](https://zhuanlan.zhihu.com/p/2097033202187637385). 📄
 - **2026-08** — We developed a backup solution for machines that do not support P2P DMA, providing a native disk-offloading path with zero external dependencies, and upstreamed it to vLLM. See [vLLM Disk Offloading](https://github.com/vllm-project/vllm/pull/49644)
 - **2026-08** — The [uGDS adapter for LMCache](https://github.com/LMCache/LMCache/pull/4420) has landed upstream! Use uGDS as the GDS L1 backend on NVIDIA CUDA or AMD ROCm, then [try it with LMCache](https://github.com/LMCache/LMCache/blob/dev/docs/source/mp/configuration.rst#gds-l1-tier) by setting `--gds-l1-backend ugds`. 🚀
 - **2026-07** — AMD Infinity Storage (HIP/ROCm) backend merged ([PR #1](https://github.com/ScaleX-IO/uGDS/pull/1)): dual-backend CUDA + HIP support. 🎉
@@ -180,7 +181,21 @@ scripts/run_tests.sh all
 
 ## Citation
 
-uGDS originated from the motivation experiments in CoPilotIO. If you find uGDS useful in your research, please cite:
+If you find uGDS useful in your research, please cite our technical report:
+
+```bibtex
+@misc{wei2026ugdsuserspacedevelopmentkit,
+      title={uGDS: A User-Space Development Kit for High-Performance GPU Direct Storage}, 
+      author={Jing Wei and Guanyi Chen and Qi Chen and Chuyu Zhang and Zheng Zhou and Chutian Wang and Jian Zhang},
+      year={2026},
+      eprint={2610.30868},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC},
+      url={https://arxiv.org/abs/2610.30868}, 
+}
+```
+
+uGDS originated from the motivation experiments in CoPilotIO:
 
 ```bibtex
 @inproceedings{chen2026copilotio,
@@ -202,9 +217,18 @@ uGDS originated from the motivation experiments in CoPilotIO. If you find uGDS u
 - Guanyi Chen — felixlinker02@gmail.com — [chengy-sysu.github.io](https://chengy-sysu.github.io)
 - Jian Zhang — jianz@hkust-gz.edu.cn — [sosp.dev](https://sosp.dev)
 
-**[Join the ScaleX-IO Slack workspace](https://join.slack.com/t/scalex-io/shared_invite/zt-4dtq5uxn9-gefCZJOuXIgl_QGCITkUGw)**
+Join the community on **[Slack](https://join.slack.com/t/scalex-io/shared_invite/zt-4dtq5uxn9-gefCZJOuXIgl_QGCITkUGw)** or **WeChat**:
 
-[![ScaleX-IO Slack QR code](assets/slack.png)](https://join.slack.com/t/scalex-io/shared_invite/zt-4dtq5uxn9-gefCZJOuXIgl_QGCITkUGw)
+<table>
+  <tr>
+    <th>Slack</th>
+    <th>WeChat</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://join.slack.com/t/scalex-io/shared_invite/zt-4dtq5uxn9-gefCZJOuXIgl_QGCITkUGw"><img src="assets/slack.png" alt="ScaleX-IO Slack QR code" width="200"></a></td>
+    <td align="center"><img src="assets/wechat.png" alt="uGDS WeChat group QR code" width="200"></td>
+  </tr>
+</table>
 
 ## License
 
